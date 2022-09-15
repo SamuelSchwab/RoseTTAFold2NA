@@ -88,7 +88,7 @@ do
 
     if [ $type = 'P' ]
     then
-        proteinMSA $fasta $tag
+        #proteinMSA $fasta $tag
         argstring+="P:$WDIR/$tag.msa0.a3m:$WDIR/$tag.hhr:$WDIR/$tag.atab "
     elif [ $type = 'R' ]
     then
